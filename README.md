@@ -18,7 +18,7 @@ Replacer.reset();
   --> put all replaced properties back to normal.
 
 ```javascript
-var Replacer = require('property-replacer);
+var Replacer = require('property-replacer');
 // some constructor
 var Cat = function() {
 };

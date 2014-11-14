@@ -1,0 +1,25 @@
+{
+    "name": "property-replacer",
+    "description": "Safely replace a property of an object with the ability to restore to the original state.  Also provide a way to snoop on function calls.  Useful for test driven development.",
+    "keywords": [
+        "replace",
+        "property",
+        "function",
+        "unit",
+        "test"
+    ],
+    "dependencies": {
+        "clone": "~0.1.18"
+    },
+    "devDependencies": {
+        "chai": "~1.8.1",
+        "mocha": "~1.15.1"
+    },
+    "scripts": {
+        "test": "./node_modules/mocha/bin/mocha test/*.js -R spec"
+    },
+    "version": "0.0.1",
+    "author": { "name": "Joe Heyming" },
+    "license": "GPLv2",
+    "directories": {}
+}

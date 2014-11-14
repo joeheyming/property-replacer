@@ -3,7 +3,7 @@ property-replacer
 
 Write javascript unit tests where you can safely replace object properties and undo the replacement on teardown.  Inspired by perl Test::Resub and python redef
 
-[![Build Status](https://secure.travis-ci.org/apto/replacer.png)](http://travis-ci.org/apto/property-replacer)
+[![Build Status](https://secure.travis-ci.org/joeheyming/property-replacer.png)](http://travis-ci.org/joeheyming/property-replacer)
 
 ## Installation
 
@@ -17,7 +17,7 @@ Replacer.replace(object, key, anything);
 Replacer.reset();
   --> put all replaced properties back to normal.
 
-```js
+```javascript
 var Replacer = require('property-replacer);
 // some constructor
 var Cat = function() {
